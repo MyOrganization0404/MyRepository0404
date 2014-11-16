@@ -1,7 +1,8 @@
 package com.testproject;
 /*
- * Test to search a product and share to self account in amazon.in
- */
+ Test to search a product and share to self account in amazon.in
+ Author: Simon Nicholas */
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -10,8 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 import java.io.FileInputStream;
-
 import java.util.Properties;
+
 
 
 public class ShareProduct {
@@ -27,7 +28,7 @@ public class ShareProduct {
 		  //Create Object of FileInputStream Class. Pass file path.
 		  FileInputStream objfile = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\objects.properties");
 		  
-		  //Pass object reference obj file to load method of Properties object.
+		  //Pass object reference OBJ file to load method of Properties object.
 		  obj.load(objfile);
 		  
 			// Instantiate FF driver

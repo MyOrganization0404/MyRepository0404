@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ShareProduct">
+  <test name="ShareProduct">
+    <classes>
+      <class name="com.testproject.ShareProduct"/>
+      <class name="com.testproject.GmailInbox"/>
+    </classes>
+  </test>
+</suite>
