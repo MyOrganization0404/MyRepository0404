@@ -48,7 +48,7 @@ public class GmailInbox {
 					System.out.println("Mail Time Stamp:- " + messages[i-1].getReceivedDate());
 				}
 					else {
-						System.out.println("No prouct share Mail from freins");
+						System.out.println("No product share Mail from your freinds");
 					
 					 break;
 					 
