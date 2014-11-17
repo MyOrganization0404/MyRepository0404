@@ -46,19 +46,25 @@ public class GmailInbox {
 				if (messages[i-1].getSubject().equals("simon wants you to see this item at Amazon.in")) {
 					System.out.println("Mail Subject:- " + messages[i-1].getSubject());
 					System.out.println("Mail Time Stamp:- " + messages[i-1].getReceivedDate());
-					 break;
 				}
-			} 	
+					else {
+						System.out.println("No prouct share Mail from freins");
+					
+					 break;
+					 
+						 }
 			
 			inbox.close(true);
 			store.close();
+			}
+		}
 
-		} catch (Exception e) {
+		 catch (Exception e) {
 			e.printStackTrace();
 		}
 		
+	
 	}
-
 }
 
 	
